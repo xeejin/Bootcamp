@@ -10,6 +10,8 @@ class TestActivity : AppCompatActivity() {
 
     private lateinit var viewPager : ViewPager2
 
+    val questionnaireResults = QuestionnaireResults()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -24,8 +26,9 @@ class TestActivity : AppCompatActivity() {
         // 다음 페이지로 넘기는 함수
         fun moveToNextQuestion(){
             if(viewPager.currentItem==3){ // 0부터 시작하기 때문에 총 4페이지면 3이 마지막 페이지 의미
-
-
+            val intent = Intent(this, ResultActivity::class.java)
+                intent.putIntegerArrayListExtra("results", ArrayList(questionnaireResults.results)) //결과에 대한 화면 뿌리기 위함
+                startActivity(intent)
         }else {
             val nextItem = viewPager.currentItem + 1
                 if(nextItem < viewPager.adapter?.itemCount?: 0){

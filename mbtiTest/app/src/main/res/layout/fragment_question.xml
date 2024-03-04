@@ -27,8 +27,9 @@
             android:text="@string/question1_title"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:fontFamily="@font/pyeongchangpeacelight"
             android:layout_marginBottom="20dp"
-            android:background="#EDE883"/>
+            android:background="#D9E7EC"/>
 
         <!-- 질문1 -->
         <TextView
@@ -36,6 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question1_1"
+            android:fontFamily="@font/nanumbarungothic"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="5dp"
             android:textStyle="bold"
@@ -52,12 +54,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
+                android:fontFamily="@font/nanumbarungothic"
                 android:text="@string/question1_1_answer1" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
+                android:fontFamily="@font/nanumbarungothic"
                 android:text="@string/question1_1_answer2" />
 
             </RadioGroup>
@@ -68,6 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question2_1"
+            android:fontFamily="@font/nanumbarungothic"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="5dp"
             android:textStyle="bold"
@@ -84,12 +89,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
+                android:fontFamily="@font/nanumbarungothic"
                 android:text="@string/question1_2_answer1" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
+                android:fontFamily="@font/nanumbarungothic"
                 android:text="@string/question1_2_answer2" />
 
         </RadioGroup>
@@ -101,6 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question1_3"
+            android:fontFamily="@font/nanumbarungothic"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="5dp"
             android:textStyle="bold"
@@ -117,12 +125,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
+                android:fontFamily="@font/nanumbarungothic"
                 android:text="@string/question1_3_answer1" />
 
             <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
+                android:fontFamily="@font/nanumbarungothic"
                 android:text="@string/question1_3_answer2" />
 
         </RadioGroup>
@@ -136,12 +146,13 @@
 
     <Button
         android:id="@+id/btn_next"
-        android:layout_width="match_parent"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="다음"
         android:textStyle="bold"
         android:textSize="18sp"
         android:textColor="@color/white"
+        android:backgroundTint="#89979F"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

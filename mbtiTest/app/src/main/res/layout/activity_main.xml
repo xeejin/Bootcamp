@@ -17,6 +17,7 @@
         android:textColor="@color/white"
         android:textSize="70sp"
         android:textStyle="bold"
+        android:fontFamily="@font/pyeongchangpeace"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
@@ -30,6 +31,7 @@
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
+        android:fontFamily="@font/pyeongchangpeacelight"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tv_maintitle" />
