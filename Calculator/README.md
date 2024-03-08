@@ -1,4 +1,4 @@
-# :iphone: Calculator assignment *(240307)* [바로가기](Calculator/app/src/main/java/com/limheejin/calculator/Calculator.kt)
+# :iphone: Calculator assignment *(240307)* 
    
    
 ## 필수 구현 기능
