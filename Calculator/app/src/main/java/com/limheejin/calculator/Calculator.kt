@@ -28,7 +28,7 @@ package com.limheejin.calculator
         var isExit = readLine()!!.toInt()
         when (isExit){
             1 -> main()
-            -1 -> throw Exception("계산을 종료하겠습니다. 이용해주셔서 감사합니다.")
+            -1 -> println("계산을 종료하겠습니다. 이용해주셔서 감사합니다.")
             else -> throw Exception("잘못된 연산자입니다. 계산기를 다시 켜주세요.")
         }
 
