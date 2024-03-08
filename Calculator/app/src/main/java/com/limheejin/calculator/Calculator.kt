@@ -1,6 +1,7 @@
 package com.limheejin.calculator
 
 
+class Calculator {
 
     fun main() {
 
@@ -13,7 +14,7 @@ package com.limheejin.calculator
         println("원하시는 연산자를 선택해주세요 (+, -, *, /, %")
         val operator: String? = readLine()
         val result =
-            when (operator){
+            when (operator) {
                 "+" -> num1 + num2
                 "-" -> num1 - num2
                 "*" -> num1 * num2
@@ -24,3 +25,4 @@ package com.limheejin.calculator
         println("${num1} ${operator} ${num2} = ${result} 입니다.")
 
     }
+}
