@@ -1,7 +1,6 @@
 package com.limheejin.calculator
 
-
-//class Calculator {
+class Calculator {
 
     fun main() {
 
@@ -32,8 +31,6 @@ package com.limheejin.calculator
             else -> throw Exception("잘못된 연산자입니다. 계산기를 다시 켜주세요.")
         }
 
-
-
     }
-//}
+}
 
